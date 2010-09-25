@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+- SysInfo Widget(s) 
+- 
+- Copyright (C) 2010  userdelroot r00t316@gmail.com
+-
+- This program is free software: you can redistribute it and/or modify
+- it under the terms of the GNU General Public License as published by
+- the Free Software Foundation, either version 3 of the License, or any later version.
+-
+- This program is distributed in the hope that it will be useful,
+- but WITHOUT ANY WARRANTY; without even the implied warranty of
+- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+- GNU General Public License for more details.
+-
+- You should have received a copy of the GNU General Public License
+- along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ -->
+<resources>
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	
+	<color name="screen_background_black">#ff000000</color>
+    <color name="translucent_background">#e0000000</color>
+    <color name="transparent_background">#00000000</color>
+
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+<color name="white">#eeFFFFFF</color>
+<color name="op_green">#ff77ff00</color>
+</resources>

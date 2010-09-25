@@ -1,0 +1,10 @@
+SysInfo
+=======
+
+AOSP SOURCE BUILD
+
+SysInfo an app widget which displays the cpu usage, memory usage, and how many processes are running.
+root is not required to run this widget.  
+
+Comments and suggestions welcome along with patches.
+

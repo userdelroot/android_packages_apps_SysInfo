@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+- SysInfo Widget(s) 
+- 
+- Copyright (C) 2010  userdelroot r00t316@gmail.com
+-
+- This program is free software: you can redistribute it and/or modify
+- it under the terms of the GNU General Public License as published by
+- the Free Software Foundation, either version 3 of the License, or any later version.
+-
+- This program is distributed in the hope that it will be useful,
+- but WITHOUT ANY WARRANTY; without even the implied warranty of
+- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+- GNU General Public License for more details.
+-
+- You should have received a copy of the GNU General Public License
+- along with this program.  If not, see <http://www.gnu.org/licenses/>. 
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  android:background="@color/translucent_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+<RelativeLayout android:layout_height="100dp" android:layout_width="120dp">
+<TextView android:id="@+id/TextView01" 
+android:layout_height="wrap_content" 
+android:text="@string/widget_name" 
+android:background="@color/transparent_background" 
+android:textColor="@color/white" android:layout_width="match_parent" android:gravity="center" android:paddingTop="2dp" android:paddingBottom="2dp"/>
+
+
+<TextView 
+android:text="@string/cpu_header" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/TextView02" 
+android:background="@color/transparent_background" 
+android:layout_below="@id/TextView01" 
+android:gravity="right" android:textColor="@color/op_green" android:width="80dp"/>
+
+<TextView android:id="@+id/cpu_usage"  
+android:layout_height="wrap_content" 
+android:background="@color/transparent_background" 
+android:layout_toRightOf="@id/TextView02" 
+android:layout_below="@id/TextView01"
+ android:layout_width="wrap_content" 
+ android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+
+
+<TextView 
+android:text="@string/memory_header" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/TextView03" 
+android:background="@color/transparent_background" 
+android:layout_below="@id/TextView02" android:gravity="right" android:textColor="@color/op_green" android:width="80dp"/>
+<TextView android:id="@+id/mem_usage"  
+android:layout_height="wrap_content" 
+android:background="@color/transparent_background" 
+android:layout_toRightOf="@id/TextView03" 
+android:layout_below="@id/cpu_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+
+<TextView 
+android:text="@string/process_header" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/TextView04" 
+android:background="@color/transparent_background" 
+android:layout_below="@id/TextView03" android:gravity="right" android:textColor="@color/op_green" android:width="80dp"/>
+<TextView android:id="@+id/process_usage"  
+android:layout_height="wrap_content" 
+android:background="@color/transparent_background" 
+android:layout_toRightOf="@id/TextView04" 
+android:layout_below="@id/mem_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+
+
+<TextView 
+android:text="@string/swap_header" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:id="@+id/TextView05" 
+android:background="@color/transparent_background" 
+android:layout_below="@id/TextView04" android:gravity="right" android:textColor="@color/op_green" android:width="80dp"/>
+<TextView android:id="@+id/swap_usage"  
+android:layout_height="wrap_content" 
+android:background="@color/transparent_background" 
+android:layout_toRightOf="@id/TextView05" 
+android:layout_below="@id/process_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+
+
+</RelativeLayout>
+
+
+</LinearLayout>

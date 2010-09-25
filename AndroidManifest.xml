@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="fac.userdelroot.sysinfo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+
+
+	
+	<!-- Widget InfoProvider  -->
+    <receiver android:description="@string/app_name" android:name=".InfoProvider">
+    	<intent-filter>
+        	<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+        	<action android:name="fac.userdelroot.sysinfo.action.WIDGET_UPDATE" />
+    	</intent-filter>
+    	<meta-data android:name="android.appwidget.provider"
+        	       android:resource="@xml/info_provider" />
+    </receiver>
+    
+    
+    <!--  Activity InfoConfigure -->
+    <activity android:name=".InfoConfigure" android:theme="@android:style/Theme.Dialog">
+    	<intent-filter>
+        	<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+    	</intent-filter>
+	</activity>
+	
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 
