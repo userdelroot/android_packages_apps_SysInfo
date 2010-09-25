@@ -1,7 +1,8 @@
 SysInfo
 =======
 
-AOSP SOURCE BUILD
+To build this into the source, you will need to remove the default.properties file.
+It should built into the source then.
 
 SysInfo an app widget which displays the cpu usage, memory usage, and how many processes are running.
 root is not required to run this widget.  
