@@ -42,7 +42,7 @@ android:background="@color/transparent_background"
 android:layout_toRightOf="@id/TextView02" 
 android:layout_below="@id/TextView01"
  android:layout_width="wrap_content" 
- android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+ android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="@string/default_num_val"/>
 
 
 <TextView 
@@ -56,7 +56,7 @@ android:layout_below="@id/TextView02" android:gravity="right" android:textColor=
 android:layout_height="wrap_content" 
 android:background="@color/transparent_background" 
 android:layout_toRightOf="@id/TextView03" 
-android:layout_below="@id/cpu_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+android:layout_below="@id/cpu_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="@string/default_num_val"/>
 
 <TextView 
 android:text="@string/process_header" 
@@ -69,7 +69,7 @@ android:layout_below="@id/TextView03" android:gravity="right" android:textColor=
 android:layout_height="wrap_content" 
 android:background="@color/transparent_background" 
 android:layout_toRightOf="@id/TextView04" 
-android:layout_below="@id/mem_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+android:layout_below="@id/mem_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="@string/default_num_val"/>
 
 
 <TextView 
@@ -83,7 +83,7 @@ android:layout_below="@id/TextView04" android:gravity="right" android:textColor=
 android:layout_height="wrap_content" 
 android:background="@color/transparent_background" 
 android:layout_toRightOf="@id/TextView05" 
-android:layout_below="@id/process_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="0"/>
+android:layout_below="@id/process_usage" android:layout_width="wrap_content" android:textColor="@color/op_green" android:gravity="left" android:paddingRight="2dp" android:paddingLeft="3dp" android:text="@string/default_num_val"/>
 
 
 </RelativeLayout>
