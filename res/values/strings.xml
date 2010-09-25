@@ -19,5 +19,6 @@
 	<string name="format_string">
 		<xliff:g id="value">%s</xliff:g>
 	</string>
-	<string name="widget_name">System Info</string>
+    <string name="widget_name">System Info</string>
+    <string name="default_num_val">0</string>
 </resources>
